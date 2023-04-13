@@ -1,6 +1,6 @@
 # Knex Postgres Streams + Yarn3 Workspaces
 
-This repo serves as a minimal reproduction for the following issue: 
+This repo serves as a minimal reproduction for the following issue: https://github.com/knex/knex/issues/5542
 
 ## Steps to reproduce:
 1. Install dependencies
