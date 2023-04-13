@@ -52,16 +52,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"example@workspace:apps/example":
-  version: 0.0.0-use.local
-  resolution: "example@workspace:apps/example"
-  dependencies:
-    knex: ^2.4.2
-    pg: ^8.10.0
-    pg-query-stream: ^4.4.0
-  languageName: unknown
-  linkType: soft
-
 "function-bind@npm:^1.1.1":
   version: 1.1.1
   resolution: "function-bind@npm:1.1.1"
@@ -111,6 +101,10 @@ __metadata:
 "knex-streams@workspace:.":
   version: 0.0.0-use.local
   resolution: "knex-streams@workspace:."
+  dependencies:
+    knex: ^2.4.2
+    pg: ^8.10.0
+    pg-query-stream: ^4.4.0
   languageName: unknown
   linkType: soft
 

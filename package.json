@@ -1,11 +1,13 @@
 {
   "name": "knex-streams",
   "packageManager": "yarn@3.3.1",
-  "workspaces": [
-    "apps/*"
-  ],
   "scripts": {
-    "example": "yarn workspace example",
-    "start:pg": "docker run -p 5432:5432 -e POSTGRES_PASSWORD=postgres -d postgres"
+    "start:pg": "docker run -p 5432:5432 -e POSTGRES_PASSWORD=postgres -d postgres",
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "knex": "^2.4.2",
+    "pg": "^8.10.0",
+    "pg-query-stream": "^4.4.0"
   }
 }
